@@ -10,6 +10,7 @@ module.exports = {
   password: process.env.DATABASE_PASSWORD,
   entities: ['dist/**/*.entity.js'],
   migrations: ['src/db/migrations/*.{.ts,.js}'],
+  logging: true,
   cli: {
     migrationsDir: './src/db/migrations/',
   },
